@@ -8,8 +8,8 @@ Right now it will control multiple Nests in the same house however when setting 
 
 Sample Interactions:
 
-* Alexa, Talk to Nest 
-** What can I say?
+* Alexa, Talk to Nest
+  * What can I say?
 * Alexa, Tell Nest to set the temperature to 76 degrees. 
 * Alexa, Tell Nest that I am too warm. 
 * Alexa, Tell Nest to turn the temperature up. 
@@ -72,7 +72,6 @@ At this point you should be able to go to https://<domain or ip address>/alexa/ 
 ## Usage
 ````
 run: python echopy.py
-
 ````
 
 At this time you will have to go to your Echo and say 'Alexa, Talk to Nest' (Replace Nest with what the Invocation Name you set). It should say that you are an unautherized Nest user and to check the card in your Echo App. Open the Echo app and look at the card there. It should give you what your User ID is.. (A bunch of random text) 
