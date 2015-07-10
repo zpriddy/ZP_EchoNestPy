@@ -91,6 +91,7 @@ The NestPy is another project that I have been working on that I am about to pos
 ### To Do:
 * Add chnage mode to Nest and Alexa for Away / Home
 * Add better support for multi-Nest Households. 
+* Add check in time of inbound requests for security.
 * Improve sample utterances
 * Add better help. 
 
