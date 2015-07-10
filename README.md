@@ -85,6 +85,8 @@ You should be good to start using EchoNestPy
 
 ### Notes
 
+The NestPy is another project that I have been working on that I am about to post to github that is a standalone python based API for Nest. 
+
 
 ### To Do:
 * Add chnage mode to Nest and Alexa for Away / Home
