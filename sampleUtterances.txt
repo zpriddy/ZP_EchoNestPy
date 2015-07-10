@@ -21,6 +21,8 @@ NestSetTempIntent temperature to {eighty one|temp} degrees
 NestSetTempIntent set thermostat to {sixty one|temp} 
 NestSetTempIntent set thermostat to {eighty one|temp} degrees
 
+NestCoolDownIntent turn the temperature down
+NestCoolDownIntent temperature down
 NestCoolDownIntent I'm too warm
 NestCoolDownIntent too warm
 NestCoolDownIntent react to burn 
@@ -43,6 +45,8 @@ NestCoolDownIntent it is as hot as the fiery pits of hell
 NestCoolDownIntent it is hot as hell
 NestCoolDownIntent burned
 
+NestWarmUpIntent turn the temperature up
+NestWarmUpIntent temperature up
 NestWarmUpIntent I am too cold
 NestWarmUpIntent I'm too cold
 NestWarmUpIntent it is too cool

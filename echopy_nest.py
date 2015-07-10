@@ -38,16 +38,29 @@ def request_handler(session, user, request):
 
 
 def launch_request(session, user, request):
-	output_speech = "Welcome to Nest Control App. Please say a command."
-	output_type = "PlainText"
+	if not nest.isValidUser(user.getUserId()):
+		output_speech = "Current user is not a valid nest user. Please look at the Echo app for help"
+		output_type = "PlainText"
 
-	card_type = "Simple"
-	card_title = "Nest Control - Welcome"
-	card_content = "Welcome to Nest Control App. Please say a command."
+		card_type = "Simple"
+		card_title = "Nest Control - Setting Nest Temp"
+		card_content = "Current user is not a valid nest user. Please authenticate user with userId: " + user.getUserId() + " to Nest as instructed in the README"
 
-	response = {"outputSpeech": {"type":output_type,"text":output_speech},"card":{"type":card_type,"title":card_title,"content":card_content},'shouldEndSession':False}
+		response = {"outputSpeech": {"type":output_type,"text":output_speech},"card":{"type":card_type,"title":card_title,"content":card_content},'shouldEndSession':True}
 
-	return response
+
+		return response
+	else:
+		output_speech = "Welcome to Nest Control App. Please say a command."
+		output_type = "PlainText"
+
+		card_type = "Simple"
+		card_title = "Nest Control - Welcome"
+		card_content = "Welcome to Nest Control App. Please say a command."
+
+		response = {"outputSpeech": {"type":output_type,"text":output_speech},"card":{"type":card_type,"title":card_title,"content":card_content},'shouldEndSession':False}
+
+		return response
 
 def intent_request(session, user, request):
 	print "intent_request"
