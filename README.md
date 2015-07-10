@@ -14,6 +14,8 @@ Sample Interactions:
 * Alexa, Tell Nest that I am too warm. 
 * Alexa, Tell Nest to turn the temperature up. 
 
+More deatils and videos at: https://zpriddy.com/?p=68
+
 ## Requirements and setup
 
 ### Local development environment
