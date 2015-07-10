@@ -1,0 +1,78 @@
+NestSetTempIntent set nest to {sixty eight|temp}
+NestSetTempIntent set nest to {eighty one|temp} degress
+NestSetTempIntent have nest cool to {sixty eight|temp}
+NestSetTempIntent have nest cool to {sixty eight|temp} degrees
+NestSetTempIntent set temperature to {seventy four|temp} 
+NestSetTempIntent set temperature to {eighty one|temp} degrees
+NestSetTempIntent set cool to {sixty one|temp} 
+NestSetTempIntent set cool to {seventy one|temp} degrees
+NestSetTempIntent set to {sixty one|temp} 
+NestSetTempIntent set to {eighty one|temp} degrees
+NestSetTempIntent set {sixty one|temp} 
+NestSetTempIntent set {eighty one|temp} degrees
+NestSetTempIntent set thermostat to {sixty one|temp} 
+NestSetTempIntent set thermostat to {eighty one|temp} degrees
+NestSetTempIntent nest to {sixty eight|temp}
+NestSetTempIntent nest to {eighty one|temp} degress
+NestSetTempIntent nest cool to {sixty eight|temp}
+NestSetTempIntent nest cool to {sixty eight|temp} degrees
+NestSetTempIntent temperature to {seventy four|temp} 
+NestSetTempIntent temperature to {eighty one|temp} degrees
+NestSetTempIntent set thermostat to {sixty one|temp} 
+NestSetTempIntent set thermostat to {eighty one|temp} degrees
+
+NestCoolDownIntent I'm too warm
+NestCoolDownIntent too warm
+NestCoolDownIntent react to burn 
+NestCoolDownIntent I'm burning up
+NestCoolDownIntent burning up
+NestCoolDownIntent i'm too hot
+NestCoolDownIntent too hot
+NestCoolDownIntent cool down
+NestCoolDownIntent cool the house down
+NestCoolDownIntent turn the thermostat down
+NestCoolDownIntent thermostat down
+NestCoolDownIntent the house is on fire
+NestCoolDownIntent hot as hell
+NestCoolDownIntent hot as hell's fiery pits 
+NestCoolDownIntent hot as the fiery pits of hell  
+NestCoolDownIntent its hot as the fiery pits of hell  
+NestCoolDownIntent its hot as hell
+NestCoolDownIntent its hot as hell's fiery pits 
+NestCoolDownIntent it is as hot as the fiery pits of hell  
+NestCoolDownIntent it is hot as hell
+NestCoolDownIntent burned
+
+NestWarmUpIntent I am too cold
+NestWarmUpIntent I'm too cold
+NestWarmUpIntent it is too cool
+NestWarmUpIntent it is too cold
+NestWarmUpIntent it is freezing
+NestWarmUpIntent it's freezing
+NestWarmUpIntent it is freezing
+NestWarmUpIntent it is chilly
+NestWarmUpIntent its chilly
+NestWarmUpIntent it is like ice
+NestWarmUpIntent its like ice
+NestWarmUpIntent warm up the house
+NestWarmUpIntent it is nippy
+NestWarmUpIntent it's nippy
+NestWarmUpIntent my nipples are like diamonds 
+NestWarmUpIntent my nipples are as hard as diamonds
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me

@@ -1,0 +1,3 @@
+*.pyc
+nest_settings.pickle
+nestpy_settings.py
