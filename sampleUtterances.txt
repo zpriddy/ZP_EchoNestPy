@@ -18,8 +18,6 @@ NestSetTempIntent nest cool to {sixty eight|temp}
 NestSetTempIntent nest cool to {sixty eight|temp} degrees
 NestSetTempIntent temperature to {seventy four|temp} 
 NestSetTempIntent temperature to {eighty one|temp} degrees
-NestSetTempIntent set thermostat to {sixty one|temp} 
-NestSetTempIntent set thermostat to {eighty one|temp} degrees
 
 NestCoolDownIntent turn the temperature down
 NestCoolDownIntent temperature down
@@ -53,7 +51,6 @@ NestWarmUpIntent it is too cool
 NestWarmUpIntent it is too cold
 NestWarmUpIntent it is freezing
 NestWarmUpIntent it's freezing
-NestWarmUpIntent it is freezing
 NestWarmUpIntent it is chilly
 NestWarmUpIntent its chilly
 NestWarmUpIntent it is like ice
