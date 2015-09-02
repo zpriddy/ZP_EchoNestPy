@@ -65,7 +65,7 @@ Nest developer is available at: https://developer.nest.com
   * Make sure that you click on read/write on all options that you can (some are unavailable) and give a short description (you have to..)
 3. Click Update Client
 3. From the clients page copy the Authorization URL and put it in nestpy_settings.py as nest_auth_uri_1 (sample at SAMPLE_nestpy_settings.py)
-3. From the clients page copy the Access Token URL and put it in nestpy_settings.py as nest_auth_uri_3
+3. From the clients page copy the Access Token URL and put it in nestpy_settings.py as nest_auth_uri_2
 
 ### Test
 At this point you should be able to go to https://\<domain or ip address\>/alexa/ and see a basic page.. If this works your'e good to go! 
