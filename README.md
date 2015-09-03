@@ -14,7 +14,7 @@ Sample Interactions:
 * Alexa, Tell Nest that I am too warm. 
 * Alexa, Tell Nest to turn the temperature up. 
 
-More deatils and videos at: https://zpriddy.com/?p=68
+More details and videos at: https://zpriddy.com/?p=68
 
 ## Requirements and setup
 
@@ -49,7 +49,7 @@ The ASK is available at: https://developer.amazon.com/public/solutions/alexa/ale
   * Version: 1.0 \<- This is hard-coded for now
   * Endpoint: https://\<domain or ip address\>/alexa/EchoPyAPI
 2. Go to the next page and copy the intentSchema.json to the Intent Schema and sampleUtterances.txt to the Sample Utterances
-2. Go to the next page and upload the selfsigned SSL Cert you have.. and hit next..
+2. Go to the next page and upload the self-signed SSL Cert you have.. and hit next..
 
 ### Setting Up Nest Developer Token
 
@@ -68,7 +68,7 @@ Nest developer is available at: https://developer.nest.com
 3. From the clients page copy the Access Token URL and put it in nestpy_settings.py as nest_auth_uri_2
 
 ### Test
-At this point you should be able to go to https://\<domain or ip address\>/alexa/ and see a basic page.. If this works your'e good to go! 
+At this point you should be able to go to https://\<domain or ip address\>/alexa/ and see a basic page.. If this works you're good to go! 
 
 
 ## Usage
@@ -91,7 +91,7 @@ The NestPy is another project that I have been working on that I am about to pos
 
 
 ### To Do:
-* Add chnage mode to Nest and Alexa for Away / Home
+* Add change mode to Nest and Alexa for Away / Home
 * Add better support for multi-Nest Households. 
 * Add check in time of inbound requests for security.
 * Improve sample utterances
