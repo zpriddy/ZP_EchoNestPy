@@ -126,6 +126,23 @@ def intent_request(session, user, request):
 
 			return response
 		
+		elif request['intent']['name'] ==  "NestInquireIntent":
+			nestTemp = nest.getAvgTemp(user.getUserId())
+			nestTargetTemp = nest.getAvgTargetTemp(user.getUserId())
+
+			output_speech = "Current Nest temperature is " + str(nestTemp) + " degrees fahrenheit."
+			output_type = "PlainText"
+
+			card_type = "Simple"
+			card_title = "Nest Control - Current Nest Temp"
+			card_content = "Current temperature is " + str(nestTemp) + " degrees Fahrenheit, Nest target temperature is " + str(nestTargetTemp) + " degrees Fahrenheit"
+
+			response = {"outputSpeech": {"type":output_type,"text":output_speech},"card":{"type":card_type,"title":card_title,"content":card_content},'shouldEndSession':True}
+
+			
+
+			return response
+		
 		elif request['intent']['name'] ==  "HelpIntent":
 			output_speech = "This is the Nest control app. You can tell me to set temperature to 74 degrees fahrenheit. You can also say that you are too hot or too cold and I will adjust the temperature by two degrees."
 			output_type = "PlainText"
