@@ -13,6 +13,10 @@
       "slots": []
     },
     {
+      "intent": "NestInquireIntent",
+      "slots": []
+    },
+    {
       "intent": "NestSetTempIntent",
       "slots": [
         {
