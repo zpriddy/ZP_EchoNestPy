@@ -78,7 +78,7 @@ NestInquireIntent why am I burning up
 
 NestHomeIntent hello
 NestHomeIntent I'm home
-NestAwayIntent turn off away mode
+NestHomeIntent turn off away mode
 NestHomeIntent disable away mode
 
 NestAwayIntent goodbye

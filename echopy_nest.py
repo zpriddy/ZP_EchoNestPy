@@ -128,6 +128,7 @@ def intent_request(session, user, request):
 		
 		elif request['intent']['name'] ==  "NestHomeIntent":
 			nest.setModeAll(user.getUserId(), "home")
+			nestTemp = nest.getAvgTemp(user.getUserId())
 			nestTargetTemp = nest.getAvgTargetTemp(user.getUserId())
 
 			output_speech = "Setting Nest to Home"
@@ -145,6 +146,7 @@ def intent_request(session, user, request):
 		
 		elif request['intent']['name'] ==  "NestAwayIntent":
 			nest.setModeAll(user.getUserId(), "away")
+			nestTemp = nest.getAvgTemp(user.getUserId())
 			nestTargetTemp = nest.getAvgTargetTemp(user.getUserId())
 
 			output_speech = "Setting Nest to Away"
