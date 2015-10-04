@@ -13,6 +13,14 @@
       "slots": []
     },
     {
+      "intent": "NestAwayIntent",
+      "slots": []
+    },
+    {
+      "intent": "NestHomeIntent",
+      "slots": []
+    },
+    {
       "intent": "NestInquireIntent",
       "slots": []
     },

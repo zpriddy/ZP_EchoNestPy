@@ -126,6 +126,40 @@ def intent_request(session, user, request):
 
 			return response
 		
+		elif request['intent']['name'] ==  "NestHomeIntent":
+			nest.setModeAll(user.getUserId(), "home")
+			nestTargetTemp = nest.getAvgTargetTemp(user.getUserId())
+
+			output_speech = "Setting Nest to Home"
+			output_type = "PlainText"
+
+			card_type = "Simple"
+			card_title = "Nest Control - Set Home"
+			card_content = "Setting Nest to Home. Current temperature is " + str(nestTemp) + " degrees Fahrenheit, Nest target temperature is " + str(nestTargetTemp) + " degrees Fahrenheit"
+
+			response = {"outputSpeech": {"type":output_type,"text":output_speech},"card":{"type":card_type,"title":card_title,"content":card_content},'shouldEndSession':True}
+
+			
+
+			return response
+		
+		elif request['intent']['name'] ==  "NestAwayIntent":
+			nest.setModeAll(user.getUserId(), "away")
+			nestTargetTemp = nest.getAvgTargetTemp(user.getUserId())
+
+			output_speech = "Setting Nest to Away"
+			output_type = "PlainText"
+
+			card_type = "Simple"
+			card_title = "Nest Control - Set Away"
+			card_content = "Setting Nest to Away. Current temperature is " + str(nestTemp) + " degrees Fahrenheit, Nest target temperature is " + str(nestTargetTemp) + " degrees Fahrenheit"
+
+			response = {"outputSpeech": {"type":output_type,"text":output_speech},"card":{"type":card_type,"title":card_title,"content":card_content},'shouldEndSession':True}
+
+			
+
+			return response
+		
 		elif request['intent']['name'] ==  "NestInquireIntent":
 			nestTemp = nest.getAvgTemp(user.getUserId())
 			nestTargetTemp = nest.getAvgTargetTemp(user.getUserId())
