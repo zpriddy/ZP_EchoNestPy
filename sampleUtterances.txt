@@ -61,6 +61,21 @@ NestWarmUpIntent it's nippy
 NestWarmUpIntent my nipples are like diamonds 
 NestWarmUpIntent my nipples are as hard as diamonds
 
+NestInquireIntent current temperature
+NestInquireIntent what's the temperature
+NestInquireIntent what's the current temperature
+NestInquireIntent what's the temperature inside
+NestInquireIntent what's the temperature indoors
+NestInquireIntent what is the temperature
+NestInquireIntent what is the current temperature
+NestInquireIntent what is the temperature inside
+NestInquireIntent what is the temperature indoors
+NestInquireIntent why are my nipples like diamonds
+NestInquireIntent why are my nipples as hard as diamonds
+NestInquireIntent why are my balls sweaty
+NestInquireIntent why am I freezing
+NestInquireIntent why am I burning up
+
 HelpIntent help
 HelpIntent help me
 HelpIntent what can I ask you
