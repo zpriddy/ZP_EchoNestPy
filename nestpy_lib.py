@@ -80,7 +80,7 @@ def setTemperatureTargetAll(userId,temp):
 		print "Device:" + device
 		command_uri = 'https://developer-api.nest.com/devices/thermostats/' + device + "?auth=" + token
 		print command_uri
-		response = requests.put(url=command_uri, data=command, json=command)
+		response = requests.put(url=command_uri, json=command)
 		print response
 		print response.text
 		if response.status_code != 200:
@@ -105,7 +105,7 @@ def setTurnDownTemperatureAll(userId):
 		deviceId = thermostats[device]['id']
 		command = {"target_temperature_f":int(currentTemp)-2}
 		command_uri = 'https://developer-api.nest.com/devices/thermostats/' + deviceId + "?auth=" + token
-		response = requests.put(url=command_uri, data=command, json=command)
+		response = requests.put(url=command_uri, json=command)
 		if response.status_code != 200:
 			commandSucessfull = False
 
@@ -130,7 +130,7 @@ def setTurnUpTemperatureAll(userId):
 		deviceId = thermostats[device]['id']
 		command = {"target_temperature_f":int(currentTemp)+2}
 		command_uri = 'https://developer-api.nest.com/devices/thermostats/' + deviceId + "?auth=" + token
-		response = requests.put(url=command_uri, data=command, json=command)
+		response = requests.put(url=command_uri, json=command)
 		if response.status_code != 200:
 			commandSucessfull = False
 	
@@ -152,7 +152,7 @@ def setModeAll(userId,mode):
 
 	for structure in structures:
 		command_uri = 'https://developer-api.nest.com/structures/' + structure + "?auth=" + token
-		response = requests.put(url=command_uri, data=command, json=command)
+		response = requests.put(url=command_uri, json=command)
 		if response.status_code != 200:
 			commandSucessfull = False
 
