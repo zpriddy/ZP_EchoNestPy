@@ -76,6 +76,16 @@ NestInquireIntent why are my balls sweaty
 NestInquireIntent why am I freezing
 NestInquireIntent why am I burning up
 
+NestHomeIntent hello
+NestHomeIntent I'm home
+NestHomeIntent turn off away mode
+NestHomeIntent disable away mode
+
+NestAwayIntent goodbye
+NestAwayIntent I'm leaving
+NestAwayIntent turn on away mode
+NestAwayIntent enable away mode
+
 HelpIntent help
 HelpIntent help me
 HelpIntent what can I ask you
